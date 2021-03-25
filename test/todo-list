@@ -1,0 +1,9 @@
+* Abans de que el marcador del joc sigui "Love-All"
+- Quan el Player1 i Player2 tenen els mateixos punts, i son 4 punts (40) o 3 punts (30), es considera Deuce.
+- Quan el Player1 i Player2 tenen els mateixos punts, però son menors que 3 punts (30), es considera Fifteen-All.
+- Quan el Player1 i Player2 no tenen els mateixos punts, i son menors o iguals 3 punts (30), es considera Fifteen-Love, Love-Fifteen, Thirty-Love, Forty-Love...
+- Quan la diferència de punts entre Player1 i Player2 es major o igual a 2 punts, i Player1 té 4 punts (40) o més, es considera victoria per Player1
+- Quan la diferència de punts entre Player2 i Player1 es major o igual a 2 punts, i Player2 té 4 punts (40) o més, es considera victoria per Player2
+- Quan la puntuació de Player1 i Player2 es major o igual a 3 punts (30), però Player1 té més punts que Player2, es Avantatge per Player1
+- Quan la puntuació de Player1 i Player2 es major o igual a 3 punts (30), però Player2 té més punts que Player1, es Avantatge per Player2
+- En cas contrari a tot això, seria un 0-0, o sigui Love-All.
